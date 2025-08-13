@@ -45,10 +45,10 @@ export default function AdminPage() {
             <div className="flex-1 p-6 overflow-y-auto">
                 <Routes path="/*">
                     <Route path="/" element={<h1 className="text-2xl font-bold">Dashboard</h1>} />
-                    <Route path="/products" element={<ProductsAdminPage />} />
-                    <Route path="/newProduct" element={<AddProductPage />} />
-                    <Route path="/orders" element={<OrdersPageAdmin />} />
-                    <Route path="/updateProduct" element={<UpdateProductPage />} />
+                    <Route path="/products" element={<ProductsAdminPage />} /> //Go to Products
+                    <Route path="/newProduct" element={<AddProductPage />} /> //Go to Add Product
+                    <Route path="/orders" element={<OrdersPageAdmin />} /> //go to Orders
+                    <Route path="/updateProduct" element={<UpdateProductPage />} /> //go to Update Product
                 </Routes>
             </div>
         </div>
