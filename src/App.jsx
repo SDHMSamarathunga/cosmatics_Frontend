@@ -12,7 +12,7 @@ function App() {
 	return (
 		<BrowserRouter>
 			<div className="w-full h-screen flex justify-center items-center">
-					<Toaster position="top-right"/>
+					<Toaster position="top-center"/>
 					<Routes path="/">						
 		<Route path="/login" element={<LoginPage/>}/>
 						<Route path="/test" element={<TestPage/>}/>
